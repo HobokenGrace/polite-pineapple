@@ -50,6 +50,15 @@ sections:
     background: dark-gray
     text_color_style: light-on-dark
     subtitle: The Goal of Group
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    features: []
+    type: section_features
 seo:
   title: Hoboken Grace
   robots:
