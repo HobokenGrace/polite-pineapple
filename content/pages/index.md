@@ -90,7 +90,7 @@ sections:
 
 
       *Video run time: 8 minutes*
-    text_align: left
+    text_align: center
     image_alt: ''
     youtube_video:
       title: Week One - Connecting
