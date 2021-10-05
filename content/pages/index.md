@@ -78,7 +78,7 @@ sections:
         title: Connect with Story Cards
     type: section_features
   - section_id: lorem-ipsum
-    title: lorem-ipsum
+    title: Welcome Video
     subtitle: lorem-ipsum
     background: gray
     background_image:
