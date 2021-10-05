@@ -29,33 +29,6 @@ sections:
       bg_image: images/Light_Blur-Darken-copy.jpeg
     background: dark-gray
     text_color_style: light-on-dark
-  - section_id: lorem-ipsum
-    title: lorem-ipsum
-    subtitle: lorem-ipsum
-    background: gray
-    background_image:
-      bg_fixed: false
-      bg_image: images/dinner-group.jpeg
-    text_color_style: dark-on-light
-    image_under_content: true
-    content: >-
-      ## Lorem ipsum
-
-
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-      - Lorem ipsum
-
-      - dolor sit amet
-    image_alt: ''
-    youtube_video:
-      title: lorem-ipsum
-      video_id: ''
-    video: lorem-ipsum
-    actions: []
-    type: section_hero
 seo:
   title: Hoboken Grace
   robots:
