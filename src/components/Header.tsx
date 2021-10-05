@@ -3,10 +3,8 @@ import _ from 'lodash';
 
 import { Link, withPrefix, classNames } from '../utils';
 import Action from './Action';
-console.log("HEADAH")
 const Header = (props) => {
   const { header } = props?.data?.config ?? {}; 
-  console.log("PROPS", props)
   return (
     <header id="masthead" className="site-header outer">
       <div className="inner">
