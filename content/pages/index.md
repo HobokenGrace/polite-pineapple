@@ -115,7 +115,7 @@ sections:
       - Lorem ipsum
 
       - dolor sit amet
-    text_align: left
+    text_align: center
     image_alt: ''
     youtube_video:
       title: lorem-ipsum
