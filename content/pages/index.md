@@ -28,6 +28,7 @@ sections:
       bg_fixed: true
       bg_image: images/Light_Blur-Darken-copy.jpeg
     background: dark-gray
+    text_color_style: light-on-dark
   - section_id: lorem-ipsum
     title: lorem-ipsum
     subtitle: lorem-ipsum
