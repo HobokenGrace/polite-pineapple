@@ -29,6 +29,9 @@ sections:
     text_color_style: dark-on-light
     content: |
       *   [Week One: Connecting](/week-one-connecting)
+      *   Week Two: Personal Growth Night
+      *   Week Three: Connection and Common Growth Night
+      *   Week Four: Communion Night
     text_align: left
     image_alt: ''
     youtube_video:
