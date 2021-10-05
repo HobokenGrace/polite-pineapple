@@ -119,7 +119,7 @@ sections:
     image_alt: ''
     youtube_video:
       title: lorem-ipsum
-      video_id: ''
+      video_id: Q7rcF3YaSw0
     actions: []
     type: section_content
 seo:
