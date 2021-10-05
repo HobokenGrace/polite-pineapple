@@ -51,7 +51,6 @@ sections:
     text_color_style: light-on-dark
     subtitle: The Goal of Group
   - section_id: lorem-ipsum
-    title: Connect with Story Cards
     background: gray
     background_image:
       bg_fixed: false
