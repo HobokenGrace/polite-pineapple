@@ -31,7 +31,6 @@ sections:
     text_color_style: light-on-dark
   - section_id: Leader Guide
     title: Leader Guide
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
