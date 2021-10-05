@@ -102,6 +102,7 @@ sections:
     background: white
     background_image:
       bg_fixed: false
+      bg_image: images/3_thumb.jpg
     text_color_style: dark-on-light
     content: >-
       ## Lorem ipsum
