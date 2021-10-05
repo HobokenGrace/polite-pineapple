@@ -1,5 +1,5 @@
 ---
-title: 'Week One:'
+title: 'Week One: Connecting'
 subtitle: lorem-ipsum
 image_alt: ''
 seo:
