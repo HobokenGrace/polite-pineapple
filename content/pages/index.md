@@ -94,7 +94,7 @@ sections:
     image_alt: ''
     youtube_video:
       title: lorem-ipsum
-      video_id: ''
+      video_id: a_tR8vXkVJc
     actions: []
     type: section_content
 seo:
