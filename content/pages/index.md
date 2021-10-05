@@ -51,7 +51,7 @@ sections:
     text_color_style: light-on-dark
     subtitle: The Goal of Group
   - section_id: lorem-ipsum
-    background: gray
+    background: white
     background_image:
       bg_fixed: false
     text_color_style: dark-on-light
