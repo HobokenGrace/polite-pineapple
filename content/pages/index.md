@@ -12,6 +12,7 @@ sections:
       We want to partner with you.
     background_image:
       bg_fixed: false
+      bg_image: images/dinner-group.jpeg
     image_under_content: true
   - section_id: lorem-ipsum
     title: 'Hello, New Group Leader! '
