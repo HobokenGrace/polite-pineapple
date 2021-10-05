@@ -29,7 +29,7 @@ sections:
       bg_image: images/Light_Blur-Darken-copy.jpeg
     background: dark-gray
     text_color_style: light-on-dark
-  - section_id: lorem-ipsum
+  - section_id: Leader Guide
     title: Leader Guide
     subtitle: lorem-ipsum
     background: gray
