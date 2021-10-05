@@ -30,7 +30,7 @@ sections:
     background: dark-gray
     text_color_style: light-on-dark
   - section_id: lorem-ipsum
-    title: lorem-ipsum
+    title: Leader Guide
     subtitle: lorem-ipsum
     background: gray
     background_image:
