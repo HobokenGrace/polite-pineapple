@@ -96,3 +96,12 @@ out
 .sourcebit-nextjs-cache.json
 .DS_Store
 .idea
+
+#WebStorm files
+JetBrains.Dockerfile
+start.sh
+# Local Netlify folder
+.netlify
+
+# Posts cache
+cache/*

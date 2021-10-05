@@ -10,6 +10,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+div {
+  box-sizing: border-box;
+}
+
 @each $font, $stack in $theme-fonts {
   $font-suffix: "#{$font}";
 
@@ -53,11 +57,11 @@ h6 {
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2.25em;
 }
 
 h2 {
-  font-size: 1.77778em;
+  font-size: 1.75rem;
 }
 
 h3 {
@@ -173,6 +177,10 @@ li > ol {
   margin-bottom: 0;
 }
 
+li p:last-child {
+  margin-bottom: .5em;
+}
+
 hr {
   background-color: $gray-200;
   border: 0;
@@ -194,4 +202,8 @@ video {
 img {
   height: auto;
   max-width: 100%;
+}
+
+.block-copy {
+  margin-bottom: 2em;
 }

@@ -1,42 +1,32 @@
-# The stackbit.yaml file lets you define the characteristic of your website
-# needed to make your theme, or project, work with Stackbit. For more info about
-# stackbit.yaml configuration visit https://www.stackbit.com/docs/stackbit-yaml/
 stackbitVersion: ~0.3.0
 ssgName: nextjs
-cmsName: git
-
-# The "buildCommand" and the "publishDir" properties are used to configure the
-# serverless deployment platform when Stackbit creates a new site from this theme.
+ssgVersion: 9.4.4
 buildCommand: npm run build
 publishDir: out
-
-# The following properties define the content schema of the site. It allows
-# Stackbit Studio to present on-page editing experience, as well as other
-# advanced editing capabilities.
-
-# assets define how assets are referenced by static site generator
-# for more info about assets visit: https://www.stackbit.com/docs/stackbit-yaml/assets/
-assets:
-  referenceType: static
-  staticDir: public
-  uploadDir: images
-  publicPath: /
-
-# dataDir defines the folder for files described by models of type 'data'.
-# The model properties 'folder', 'match' and 'exclude' should be relative to dataDir
+staticDir: public
+uploadDir: images
 dataDir: content/data
-
-# pagesDir defines the folder for files described by models of type 'page'.
-# The model properties 'folder', 'match' and 'exclude' should be relative to dataDir
+logicFields: 
+  - section_hero.video
+  - youtube_video.video_id
+  - iframe.src
 pagesDir: content/pages
-
-# pageLayoutKey is additional filtering property that specifies which page field
-# should be used to match a page to a model, by model name, in case when pages
-# belonging to different models are located in the same folder
 pageLayoutKey: layout
-
-# These are the models of the website
-# for more info about models visit: https://www.stackbit.com/docs/stackbit-yaml/models/
+pageData:
+  - pagePath: /
+    initialExpandedPaths:
+      - '[0]'
+      - '[0].fields.title'
+      - '[0].fields.sections'
+      - '[0].fields.sections.items[0]'
+      - '[0].fields.sections.items[0].fields.title'
+      - '[0].fields.sections.items[0].fields.content'
+      - '[0].fields.sections.items[1]'
+      - '[0].fields.sections.items[1].fields.title'
+      - '[0].fields.sections.items[1].fields.subtitle'
+      - '[0].fields.sections.items[1].fields.features'
+      - '[1]'
+      - '[1].fields.palette'
 models:
   config:
     type: data
@@ -135,6 +125,7 @@ models:
         description: Footer sections
         items:
           type: model
+          labelField: title
           models:
             - footer_form
             - footer_nav
@@ -231,6 +222,7 @@ models:
         description: The image displayed in the section
       - type: string
         name: image_alt
+        default: ""
         label: Image Alt Text
         description: The alt text of the image
       - type: string
@@ -245,19 +237,34 @@ models:
         name: content
         label: Content
         description: The text content of the section
-  person:
-    type: data
-    label: Person
-    folder: authors
+  tag:
+    type: object
+    label: Tag
+    labelField: tag
     fields:
-      - type: string
-        name: first_name
-      - type: string
-        name: last_name
-      - type: markdown
-        name: bio
-      - type: image
-        name: photo
+      - type: enum
+        name: tag
+        label: Tag
+        options:
+          - Baptism
+          - Bridge Events
+          - Community
+          - Dinner Groups
+          - Events
+          - Family Support
+          - FPU
+          - Grace Kids
+          - Home
+          - HR
+          - Impact Teams
+          - Life
+          - Mission Trips
+          - Parenting
+          - Portraits
+          - Reference
+          - Series Page
+          - Starting Point
+          - Sunday
   landing:
     type: page
     label: Landing Page
@@ -275,34 +282,19 @@ models:
         description: Page sections
         items:
           type: model
+          labelField: title
           models:
             - section_content
             - section_cta
+            - section_icon_links
             - section_faq
             - section_features
             - section_hero
-            - section_posts
             - section_pricing
-            - section_reviews
+            - section_stories
             - section_contact
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
-  blog:
-    type: page
-    urlPath: /blog
-    label: Blog
-    layout: blog
-    file: blog/index.md
-    hideContent: true
-    singleInstance: true
-    fields:
-      - type: string
-        name: title
-        label: Title
-        description: The title of the page
-        required: true
+            - quotation
+            - section_cols
       - type: model
         name: seo
         models:
@@ -311,7 +303,6 @@ models:
     type: page
     label: Page
     layout: page
-    exclude: blog/**
     fields:
       - type: string
         name: title
@@ -328,61 +319,62 @@ models:
         description: The image shown below the page title
       - type: string
         name: image_alt
+        default: ""
         label: Image Alt Text
         description: The alt text of the image
       - type: model
         name: seo
         models:
           - stackbit_page_meta
-  post:
-    type: page
-    urlPath: '/blog/{slug}'
-    label: Post
-    layout: post
-    folder: blog
+  background_image:
+    type: object
+    label: Background Image
+    fields:
+      - type: image
+        name: bg_image
+        label: Background Image
+        description: A background image
+      - type: boolean
+        name: bg_fixed
+        label: Background Fixed
+        description: Whether the Background image should stay fixed as the page scrolls
+  youtube_video:
+    type: object
+    label: YouTube Video
     fields:
       - type: string
         name: title
         label: Title
-        description: The title of the post
-        required: true
+        description: The title of the video
       - type: string
-        name: subtitle
-        label: Subtitle
-        description: The text shown just below the title or the featured image
-      - type: date
-        name: date
-        label: Date
-        required: true
-      - type: reference
-        name: author
-        description: Post author
-        models:
-          - person
+        name: video_id
+        default: ""
+        label: Video ID
+        description: The id of the video, available from the youtube url
+  iframe:
+    type: object
+    label: Iframe
+    fields:
       - type: string
-        name: excerpt
-        label: Excerpt
-        description: The excerpt of the post displayed in the blog feed
-      - type: image
-        name: image
-        label: Image (single post)
-        description: The image shown below the title
+        name: title
+        label: Title
+        description: The title of the iframe
       - type: string
-        name: image_alt
-        label: Image alt text (single post)
-        description: The alt text of the featured image
-      - type: image
-        name: thumb_image
-        label: Image (blog feed)
-        description: The image shown in the blog feed
+        name: src
+        default: ""
+        label: src
+        description: The src of the iframe
       - type: string
-        name: thumb_image_alt
-        label: Image alt text (blog feed)
-        description: The alt text of the blog feed image
-      - type: model
-        name: seo
-        models:
-          - stackbit_page_meta
+        name: width
+        label: width
+        description: The width of the iframe
+        default: 100%
+      - type: string
+        name: height
+        label: height
+        description: The height of the iframe
+        default: "480"
+      
   section:
     type: object
     label: Section
@@ -396,6 +388,32 @@ models:
         name: title
         label: Title
         description: The title of the section
+      - type: string
+        name: subtitle
+        label: Subtitle
+        description: The subtitle of the section
+      - type: enum
+        name: background
+        label: Background
+        description: The background of the section
+        options:
+          - gray
+          - white
+          - accent
+          - dark-gray
+        default: gray
+      - type: model
+        name: background_image
+        models:
+          - background_image
+      - type: enum
+        name: text_color_style
+        label: Text Color Style
+        options:
+          - dark-on-light
+          - light-on-dark
+        default: dark-on-light
+
   section_content:
     type: object
     label: Content Section
@@ -406,22 +424,27 @@ models:
         name: content
         label: Content
         description: The text content of the section
+      - type: enum
+        name: text_align
+        label: Text Alignment
+        description: The alignment of text
+        options:
+          - left
+          - center
+          - right
       - type: image
         name: image
         label: Image
         description: The image of the section
       - type: string
         name: image_alt
+        default: ""
         label: Image Alt Text
         description: The alt text of the section image
-      - type: enum
-        name: background
-        label: Background
-        description: The background of the section
-        options:
-          - gray
-          - white
-        default: gray
+      - type: model
+        name: youtube_video
+        models: 
+          - youtube_video
       - type: list
         name: actions
         label: Action Buttons
@@ -435,10 +458,6 @@ models:
     extends:
       - section
     fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section
       - type: list
         name: actions
         label: Action Buttons
@@ -452,18 +471,6 @@ models:
     extends:
       - section
     fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section
-      - type: enum
-        name: background
-        label: Background
-        description: The background of the section
-        options:
-          - gray
-          - white
-        default: gray
       - type: list
         name: faq_items
         label: FAQ Items
@@ -487,18 +494,6 @@ models:
     extends:
       - section
     fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section
-      - type: enum
-        name: background
-        label: Background
-        description: The background of the section
-        options:
-          - gray
-          - white
-        default: gray
       - type: list
         name: features
         label: Features
@@ -518,14 +513,44 @@ models:
         name: content
         label: Content
         description: Feature description
+      - type: enum
+        name: text_align
+        label: Text Alignment
+        description: The alignment of content text
+        options:
+          - left
+          - center
+          - right
       - type: image
         name: image
         label: Image
         description: Feature image
+      - type: enum
+        name: image_size
+        label: Image size
+        description: The relative size of the image
+        default: medium
+        options: 
+          - small
+          - medium
+          - large
+      - type: enum
+        name: image_alignment
+        label: Image or video alignment
+        description: Whether the image/video is left or right of the text
+        default: right
+        options:
+          - left
+          - right
       - type: string
         name: image_alt
+        default: ""
         label: Image Alt Text
         description: The alt text of the feature image
+      - type: model
+        name: youtube_video
+        models: 
+          - youtube_video
       - type: list
         name: actions
         label: Action Buttons
@@ -539,6 +564,10 @@ models:
     extends:
       - section
     fields:
+      - type: boolean
+        name: image_under_content
+        label: Show image under the content? 
+        description: If true, image will appear under the content
       - type: markdown
         name: content
         label: Content
@@ -549,8 +578,21 @@ models:
         description: The image of the section
       - type: string
         name: image_alt
+        default: ""
         label: Image Alt Text
         description: The alt text of the section image
+      - type: model
+        name: youtube_video
+        models:
+          - youtube_video
+      - type: string
+        name: video
+        label: Background Video URL
+        descripton: URL of a video file to play in the hero background
+      - type: image
+        name: video_poster
+        label: Background Video Poster Image
+        description: Image to display while the video loads
       - type: list
         name: actions
         label: Action Buttons
@@ -558,42 +600,17 @@ models:
           type: model
           models:
             - action
-  section_posts:
+  section_stories:
     type: object
-    label: Posts List
+    label: Stories List
     extends:
       - section
-    fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section
-      - type: enum
-        name: background
-        label: Background
-        description: The background of the section
-        options:
-          - gray
-          - white
-        default: gray
   section_pricing:
     type: object
     label: Pricing Section
     extends:
       - section
     fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section
-      - type: enum
-        name: background
-        label: Background
-        description: The background of the section
-        options:
-          - gray
-          - white
-        default: gray
       - type: list
         name: pricing_plans
         label: Pricing Plans
@@ -630,70 +647,159 @@ models:
           type: model
           models:
             - action
-  section_reviews:
+  section_icon_links:
     type: object
-    label: Reviews Section
+    label: Icon Links Section
+    extends:
+      - section
+    fields:
+      - type: enum
+        name: icon_style
+        label: Icon Style
+        description: The style of the icons
+        options:
+          - circle
+          - box
+          - octagon
+      - type: markdown 
+        name: content
+        label: Content
+        description: Content to appear above the links
+      - type: enum
+        name: text_align
+        label: Text Alignment
+        description: The alignment of content text
+        options:
+          - left
+          - center
+          - right
+      - type: list
+        name: items
+        label: Items
+        items:
+          type: model
+          models:
+            - icon_link_item
+  quotation:
+    type: object
+    label: Quotation
     extends:
       - section
     fields:
       - type: string
-        name: subtitle
-        label: Subtitle
-        description: The subtitle of the section
+        name: quote
+        label: Quote
+        description: The quote
+      - type: string
+        name: citation
+        label: citation
+        description: Citation of the quote
+  section_cols:
+    type: object
+    label: Columns Section
+    extends:
+      - section
+    fields:
       - type: enum
-        name: background
-        label: Background
-        description: The background of the section
+        name: icon_style
+        label: Icon Style
+        description: The style of the icons
         options:
-          - gray
-          - white
-        default: gray
+          - circle
+          - box
+          - octagon
+        default: octagon
       - type: list
-        name: reviews
-        label: Reviews
+        name: columns
+        label: Columns
         items:
           type: model
           models:
-            - review_item
-  review_item:
+            - col_item
+  col_item:
     type: object
-    label: Review Item
-    labelField: author
+    label: Column Item
     fields:
       - type: string
-        name: author
-        label: Author
-      - type: image
-        name: avatar
-        label: Author Image
+        name: title
+        label: Title
       - type: string
-        name: avatar_alt
-        label: Author Image Alt Text
-      - type: text
-        name: content
-        label: Content
+        name: title_url
+        label: Title URL
+        widget: url
+      - type: boolean
+        name: is_card
+        label: Use Card Style?
+        default: false
+      - type: string
+        default: user
+        name: icon_name
+        label: Icon Name
+      - type: string
+        name: image_alt
+        default: ""
+        label: Image Alt Text
+        description: The alt text of the image
+      - type: string
+        name: image_url
+        label: Image URL
+        description: The url of the image
+      - type: model
+        name: youtube_video
+        models: 
+          - youtube_video
+      - type: model
+        name: iframe
+        models: 
+          - iframe
+      - type: markdown
+        name: markdown
+        label: content
+        default: Insert content here
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: model
+          models:
+            - action
+      - type: enum
+        name: text_align
+        label: Text Alignment
+        description: The alignment of text in the column
+        options:
+          - left
+          - center
+          - right
+  icon_link_item:
+    type: object
+    label: Icon Link Item
+    fields:
+      - type: string
+        name: icon_name
+        label: Icon Name
+      - type: string
+        name: title
+        label: Title
+        required: true
+      - type: markdown
+        name: description
+        label: description
+      - type: string
+        name: url
+        label: URL
+        required: true
+        widget: url
   section_contact:
     type: object
     label: Contact Section
     extends:
       - section
     fields:
-      - type: string
-        name: subtitle
-        label: Subtitle
-        description: The text shown below the title
       - type: markdown
         name: content
         label: Content
         description: 'the content of the section, appears above the form'
-      - type: enum
-        name: background
-        label: Background
-        description: The background of the section
-        options:
-          - gray
-          - white
-        default: gray
       - type: string
         name: form_id
         label: Form ID
@@ -733,6 +839,7 @@ models:
         name: url
         label: URL
         required: true
+        widget: url
       - type: enum
         name: style
         label: Style
@@ -777,6 +884,11 @@ models:
         label: No follow
         default: false
         description: Add rel="nofollow" attribute to the link
+      - type: boolean
+        name: typeform
+        label: Typeform Link
+        default: false
+        description: Should the link open a Typeform form
   form_field:
     type: object
     label: Form Field
@@ -826,12 +938,17 @@ models:
         name: title
         label: Title
         description: The page title that goes into the <title> tag
-        default: ''
+        default: Hoboken Grace
       - type: string
         name: description
         label: Description
         description: The page description that goes into the <meta name="description"> tag
-        default: ''
+        default: ""
+      - type: string
+        name: canonical_url
+        label: Canonical URL
+        description: The canonical URL that goes into the <link rel="canonical"> tag
+        default: ""
       - type: list
         name: robots
         label: Robots
@@ -847,6 +964,7 @@ models:
             - noimageindex
             - notranslate
             - none
+          default: all
       - type: list
         name: extra
         label: Extra
@@ -859,12 +977,5 @@ models:
           fields:
             - type: string
               name: name
-              default: ''
             - type: string
               name: value
-              default: ''
-            - type: string
-              name: keyName
-              default: name
-            - type: boolean
-              name: relativeUrl

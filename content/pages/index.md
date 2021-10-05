@@ -3,122 +3,74 @@ title: Home
 sections:
   - section_id: hero
     type: section_hero
-    image: images/hero.png
+    video: videos/WEB-HOMEPAGE-LOOP-LARGE.mp4
+    video_poster: images/home/home-video-poster.jpg
     image_alt: App preview
-    title: This Is A Big Hero Headline
-    content: >-
-      Azimuth is the perfect theme for developers, designers and entrepreneurs
-      who need a sleek, modern SaaS site.
-    actions:
-      - label: Learn More
-        url: /features
-        style: primary
-  - section_id: features
-    type: section_features
+    title: 10 Week Group Leader Guide
+    content: |
+      You want to start a Dinner Group.
+      We want to partner with you.
+    background_image:
+      bg_fixed: false
+    image: images/dinner-group.jpeg
+    image_under_content: true
+  - section_id: lorem-ipsum
+    title: 'Hello, New Group Leader! '
+    content: "First – congrats and thank you for stepping into a leadership role at Hoboken Grace. Dinner Group is vital to building our community, and you — our Dinner Group Leaders — are vital to our mission of helping people find their way back to God.\_\n\nAfter ten years, we’ve learned and heard a thing or two that we think can help you as a leader and help your group, too. This guide is designed to partner with you through the first ten weeks of your group until you get confident to set your own plan.\_ Our goal in this is to give you the margin to develop relationships within your group and less on worrying what’s coming next.\_\n\nThis is just a beta so be sure to stop back frequently as we’ll be posting new content designed just for you. Don’t see what you’re looking for? Reach out to\_[dinnergroups@hobokengrace.com](mailto:X@hobokengrace.com)\_so we can better support you.\n\nWelcome to the Team!\n"
+    image_alt: lorem-ipsum
     background: gray
-    title: Features
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
-    features:
-      - title: The Best Feature of Your Services
-        image: images/feature1.png
-        image_alt: App preview on a phone and tablet
-        content: >-
-          Nam pulvinar ante eu ultricies volutpat. Aenean hendrerit, eros sed
-          aliquet luctus, lorem risus volutpat dolor, nec dignissim diam neque
-          consequat ex.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Awesome Feature of Your Services
-        image: images/feature2.png
-        image_alt: App users welcoming a new member
-        content: >-
-          Etiam vel urna sed massa egestas vulputate eu a velit. Sed ut nisl nec
-          sapien interdum luctus. Cras rhoncus condimentum metus sit amet
-          auctor.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-      - title: Cool Feature of Your Services
-        image: images/feature3.png
-        image_alt: App user profile preview
-        content: >-
-          In ante enim, lobortis quis congue vel, finibus sit amet mi. Aenean
-          quis venenatis sem. Proin eget massa id metus eleifend maximus sit
-          amet nec urna.
-        actions:
-          - label: Learn More
-            url: /features
-            style: secondary
-            has_icon: true
-            icon: arrow-right
-            icon_position: right
-  - section_id: reviews
-    type: section_reviews
-    background: white
-    title: Testimonials
-    subtitle: >-
-      Aliquam malesuada ligula eget est fringilla blandit. Integer finibus
-      semper libero id sodales.
-    reviews:
-      - author: Eric Widget
-        avatar: images/review1.jpg
-        avatar_alt: Eric Widget's photo
-        content: >-
-          Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
-          nunc non interdum. Pellentesque tortor ligula, gravida ac commodo eu.
-      - author: Parsley Montana
-        avatar: images/review2.jpg
-        avatar_alt: Parsley Montana's photo
-        content: >-
-          Sed laoreet magna commodo libero euismod sodales. Nunc ac libero
-          convallis, interdum ligula vel, pretium diam. Integer commodo sem at
-          dui sollicitudin, vel posuere justo laoreet.
-      - author: Jonquil Von Haggerston
-        avatar: images/review3.jpg
-        avatar_alt: Jonquil Von Haggerston's photo
-        content: >-
-          Integer consectetur purus neque, ac porttitor enim convallis vitae.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus.
+    actions: []
+    type: section_content
   - section_id: call-to-action
     type: section_cta
-    title: This Is Call To Action Block!
-    subtitle: This is an optional description for the call to action block.
-    actions:
-      - label: Get Started
-        url: /signup
-        style: primary
-  - section_id: recent-posts
-    type: section_posts
+    title: Show up. Join in. Be real.
+    background_image:
+      bg_fixed: true
+      bg_image: images/Light_Blur-Darken-copy.jpeg
+    background: dark-gray
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
     background: gray
-    title: Latest Posts
+    background_image:
+      bg_fixed: false
+      bg_image: images/dinner-group.jpeg
+    text_color_style: dark-on-light
+    image_under_content: true
+    content: >-
+      ## Lorem ipsum
+
+
+      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+      - Lorem ipsum
+
+      - dolor sit amet
+    image_alt: ''
+    youtube_video:
+      title: lorem-ipsum
+      video_id: ''
+    video: lorem-ipsum
+    actions: []
+    type: section_hero
 seo:
-  title: Stackbit Azimuth Theme
-  description: The preview of the Azimuth theme
+  title: Hoboken Grace
+  robots:
+    - index
+    - follow
   extra:
     - name: 'og:type'
       value: website
-      keyName: property
     - name: 'og:title'
-      value: Stackbit Azimuth Theme
-      keyName: property
+      value: Hoboken Grance
     - name: 'og:description'
-      value: The preview of the Azimuth theme
-      keyName: property
+      value: >-
+        Hoboken Grace is a diverse and growing community church seeking to love
+        and serve our city as we celebrate everything God has done for us.
     - name: 'og:image'
       value: images/hero.png
-      keyName: property
-      relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
@@ -127,6 +79,8 @@ seo:
       value: The preview of the Azimuth theme
     - name: 'twitter:image'
       value: images/hero.png
-      relativeUrl: true
+  description: >-
+    Hoboken Grace is a diverse and growing community church seeking to love and
+    serve our city as we celebrate everything God has done for us.
 layout: landing
 ---
