@@ -76,7 +76,7 @@ sections:
             typeform: false
         image: images/StoryCards.jpeg
         title: Connect with Story Cards
-      - title: lorem-ipsum
+      - title: Welcome Video
         content: >
           In this session, Pastor Chris High welcomes you to Dinner Groups at
           Hoboken Grace. He explains what a dinner group is and your host, Sarah
