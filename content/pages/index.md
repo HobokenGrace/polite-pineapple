@@ -23,7 +23,7 @@ sections:
     type: section_content
   - section_id: Leader Guide
     title: Leader Guide
-    background: accent
+    background: white
     background_image:
       bg_fixed: false
     text_color_style: dark-on-light
