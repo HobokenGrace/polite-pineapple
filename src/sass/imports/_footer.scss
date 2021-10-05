@@ -97,15 +97,15 @@
 
     .widget-text {
       &:first-child {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 30%;
+        max-width: 30%;
       }
     }
   }
 }
 
-@media only screen and (min-width: 701px) {
+@media only screen and (min-width: 801px) {
   .footer-top {
     .widget-text {
       &:first-child {
@@ -119,13 +119,12 @@
   }
 }
 
-@media only screen and (min-width: 901px) {
+@media only screen and (min-width: 1101px) {
   .footer-top {
     .grid {
       -ms-flex-pack: center;
       justify-content: center;
     }
-
     .cell,
     .widget-text:first-child,
     .widget-text:first-child ~ .cell {

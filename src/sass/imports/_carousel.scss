@@ -1,0 +1,50 @@
+// Carousel styles
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+
+.glide__arrow--left {
+  left: -2em;
+  &:before {
+    content: "\f104";
+  }
+}
+
+.glide__arrow--right {
+  right: -4.4em;
+  &:before {
+    content: "\f105";  
+  }
+}
+
+.glide__arrow {
+  box-shadow: none;
+  border: none;
+  color: transparent;
+  text-shadow: none;
+  
+  &:before {
+    color: #999;
+    font-size: 40px;
+    line-height: 37px;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.glide__bullet {
+  border: 1px solid #999;
+  box-shadow: none;
+}
+
+.glide__bullet--active {
+  background-color: #999;
+}
+
+.glide__bullet:hover, .glide__bullet:focus {
+  border: 1px solid #999;
+  background-color: #999;
+}

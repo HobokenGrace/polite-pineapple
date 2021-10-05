@@ -4,29 +4,21 @@ import _ from 'lodash';
 import { Link, withPrefix, markdownify } from '../utils';
 
 export default class FooterText extends React.Component {
-    render() {
-        const section = _.get(this.props, 'section');
-        const image = _.get(section, 'image');
-        const imageUrl = _.get(section, 'image_url');
-        const imageAlt = _.get(section, 'image_alt');
-        const title = _.get(section, 'title');
-        const content = _.get(section, 'content');
-
-        return (
-            <section className="cell widget widget-text">
-                {image &&
-                    (imageUrl ? (
-                        <Link className="widget-image" href={withPrefix(imageUrl)}>
-                            <img src={withPrefix(image)} alt={imageAlt} />
-                        </Link>
-                    ) : (
-                        <p className="widget-image">
-                            <img src={withPrefix(image)} alt={imageAlt} />
-                        </p>
-                    ))}
-                {title && <h2 className="widget-title">{title}</h2>}
-                {markdownify(content)}
-            </section>
-        );
-    }
+  render() {
+    const section = _.get(this.props, 'section', null);
+    return (
+      <section className="cell widget widget-text">
+        {_.get(section, 'image', null) && (
+          _.get(section, 'image_url', null) ? (
+            <Link className="widget-image" href={withPrefix(_.get(section, 'image_url', null))}><img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} /></Link>
+          )
+            : <p className="widget-image"><img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} /></p>
+        )}
+        {_.get(section, 'title', null) && (
+        <h2 className="widget-title">{_.get(section, 'title', null)}</h2>
+        )}
+        {markdownify(_.get(section, 'content', null))}
+      </section>
+    );
+  }
 }

@@ -1,0 +1,32 @@
+@import "../sass/imports/variables";
+
+.icon-container {
+  margin-left: 1rem;
+  z-index: 10;
+}
+
+.results {
+  background: $gray-200;
+  list-style: none;
+  overflow: hidden;
+  margin: 9px 0 0;
+  padding: 0;
+  position: absolute;
+  top: 8.45rem;
+  left: 0;
+  right: 0;
+}
+
+.result {
+  padding: 1rem;
+  &:hover {
+    background: $gray-400;
+  }
+}
+
+.result a {
+  display: block;
+  max-width: 1140px;
+  margin: 0 auto;
+  color: $gray-700;
+}
