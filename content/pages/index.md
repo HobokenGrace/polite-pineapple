@@ -79,7 +79,6 @@ sections:
     type: section_features
   - section_id: lorem-ipsum
     title: Welcome Video
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
