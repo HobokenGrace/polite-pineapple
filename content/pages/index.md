@@ -49,6 +49,7 @@ sections:
       bg_image: images/Light_Blur-Darken-copy.jpeg
     background: dark-gray
     text_color_style: light-on-dark
+    subtitle: The Goal of Group
 seo:
   title: Hoboken Grace
   robots:
