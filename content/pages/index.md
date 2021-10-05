@@ -21,14 +21,6 @@ sections:
     background: gray
     actions: []
     type: section_content
-  - section_id: call-to-action
-    type: section_cta
-    title: Show up. Join in. Be real.
-    background_image:
-      bg_fixed: true
-      bg_image: images/Light_Blur-Darken-copy.jpeg
-    background: dark-gray
-    text_color_style: light-on-dark
   - section_id: Leader Guide
     title: Leader Guide
     background: gray
@@ -53,6 +45,14 @@ sections:
       video_id: ''
     actions: []
     type: section_content
+  - section_id: call-to-action
+    type: section_cta
+    title: Show up. Join in. Be real.
+    background_image:
+      bg_fixed: true
+      bg_image: images/Light_Blur-Darken-copy.jpeg
+    background: dark-gray
+    text_color_style: light-on-dark
 seo:
   title: Hoboken Grace
   robots:
