@@ -41,7 +41,9 @@ sections:
     type: section_content
   - section_id: call-to-action
     type: section_cta
-    title: Show up. Join in. Be real.
+    title: >-
+      To provide everyone in your group the opportunity to pursue authentic
+      community and spiritual growth.
     background_image:
       bg_fixed: true
       bg_image: images/Light_Blur-Darken-copy.jpeg
