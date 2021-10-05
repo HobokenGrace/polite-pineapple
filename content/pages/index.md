@@ -120,7 +120,16 @@ sections:
     youtube_video:
       title: lorem-ipsum
       video_id: Q7rcF3YaSw0
-    actions: []
+    actions:
+      - label: lorem-ipsum
+        url: lorem-ipsum
+        style: link
+        has_icon: false
+        icon: arrow-left
+        icon_position: left
+        new_window: false
+        no_follow: false
+        typeform: false
     type: section_content
 seo:
   title: Hoboken Grace
