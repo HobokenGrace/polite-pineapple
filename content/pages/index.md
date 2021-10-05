@@ -68,7 +68,7 @@ sections:
           video_id: ''
         actions:
           - label: Digital Story Cards
-            url: lorem-ipsum
+            url: 'https://www.anthology.study/story-cards'
             style: primary
             has_icon: false
             icon: arrow-left
