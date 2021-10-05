@@ -1,5 +1,5 @@
 ---
-title: lorem-ipsum
+title: 'Week One:'
 subtitle: lorem-ipsum
 image_alt: ''
 seo:
