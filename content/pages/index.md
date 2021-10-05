@@ -76,6 +76,7 @@ sections:
             no_follow: false
             typeform: false
         image: images/StoryCards.jpeg
+        title: Connect with Story Cards
     type: section_features
 seo:
   title: Hoboken Grace
