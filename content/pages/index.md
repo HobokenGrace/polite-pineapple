@@ -163,7 +163,7 @@ sections:
           title: How to set expectations for your small group
           video_id: Q7rcF3YaSw0
         actions: []
-      - title: lorem-ipsum
+      - title: PRAYER
         content: >-
           ## Lorem ipsum
 
