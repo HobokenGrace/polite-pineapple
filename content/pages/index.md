@@ -132,7 +132,7 @@ sections:
         typeform: false
     type: section_content
   - section_id: lorem-ipsum
-    title: lorem-ipsum
+    title: DINNER GROUP OVERVIEW
     subtitle: lorem-ipsum
     background: gray
     background_image:
