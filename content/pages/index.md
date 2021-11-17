@@ -153,17 +153,9 @@ sections:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - content: >-
-          ## Lorem ipsum
-
-
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+      - content: >
+          Walk through the Dinner Group Guidelines and discuss as a group what
+          it means to show up, join in, and be real.
         text_align: left
         image_size: medium
         image_alignment: right
