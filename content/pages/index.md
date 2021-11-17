@@ -180,7 +180,7 @@ sections:
           yourself. Praying out loud can be intimidating for many people, so it
           may be wise to wait a couple of weeks before asking if anyone else
           would like to lead your prayer time.
-        text_align: center
+        text_align: left
         image_size: medium
         image_alignment: right
         image_alt: ''
