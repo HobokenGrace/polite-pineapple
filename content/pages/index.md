@@ -145,6 +145,31 @@ sections:
       video_id: ''
     actions: []
     type: section_content
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    content: >-
+      ## Lorem ipsum
+
+
+      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+      - Lorem ipsum
+
+      - dolor sit amet
+    text_align: left
+    image_alt: ''
+    youtube_video:
+      title: lorem-ipsum
+      video_id: ''
+    actions: []
+    type: section_content
 seo:
   title: Hoboken Grace
   robots:
