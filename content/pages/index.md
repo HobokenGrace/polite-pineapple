@@ -161,7 +161,7 @@ sections:
         image_alignment: right
         image_alt: ''
         youtube_video:
-          title: lorem-ipsum
+          title: How to set expectations for your small group
           video_id: ''
         actions: []
     type: section_features
