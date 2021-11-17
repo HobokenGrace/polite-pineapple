@@ -166,7 +166,7 @@ sections:
     image_alt: ''
     youtube_video:
       title: How to set expectations for your small group
-      video_id: ''
+      video_id: Q7rcF3YaSw0
     actions: []
     type: section_content
 seo:
