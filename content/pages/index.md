@@ -163,25 +163,6 @@ sections:
           title: How to set expectations for your small group
           video_id: Q7rcF3YaSw0
         actions: []
-      - title: PRAYER
-        content: >
-          Take some time to pray as a group. Pray for your time together and
-          those that will join over the next 10 weeks.
-
-
-          For the first few group meetings, be prepared to lead the group prayer
-          yourself. Praying out loud can be intimidating for many people, so it
-          may be wise to wait a couple of weeks before asking if anyone else
-          would like to lead your prayer time.
-        text_align: left
-        image_size: medium
-        image_alignment: right
-        image_alt: ''
-        youtube_video:
-          title: lorem-ipsum
-          video_id: ''
-        actions: []
-        image: images/prayer.jpeg
     type: section_features
 seo:
   title: Hoboken Grace
