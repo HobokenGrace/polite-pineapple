@@ -146,7 +146,7 @@ sections:
     actions: []
     type: section_content
   - section_id: lorem-ipsum
-    title: lorem-ipsum
+    title: SHOW UP. JOIN IN. BE REAL.
     subtitle: lorem-ipsum
     background: gray
     background_image:
