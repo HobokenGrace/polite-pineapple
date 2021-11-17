@@ -153,8 +153,7 @@ sections:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - title: lorem-ipsum
-        content: >-
+      - content: >-
           ## Lorem ipsum
 
 
