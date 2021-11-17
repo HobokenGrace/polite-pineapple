@@ -172,17 +172,15 @@ sections:
     text_color_style: dark-on-light
     features:
       - title: lorem-ipsum
-        content: >-
-          ## Lorem ipsum
+        content: >
+          Take some time to pray as a group. Pray for your time together and
+          those that will join over the next 10 weeks.
 
 
-          Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-          - Lorem ipsum
-
-          - dolor sit amet
+          For the first few group meetings, be prepared to lead the group prayer
+          yourself. Praying out loud can be intimidating for many people, so it
+          may be wise to wait a couple of weeks before asking if anyone else
+          would like to lead your prayer time.
         text_align: left
         image_size: medium
         image_alignment: right
