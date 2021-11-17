@@ -191,7 +191,7 @@ sections:
         image: images/prayer-81fa0705.jpeg
     type: section_features
   - section_id: lorem-ipsum
-    title: lorem-ipsum
+    title: AFTER GROUP
     subtitle: lorem-ipsum
     background: gray
     background_image:
