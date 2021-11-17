@@ -181,6 +181,7 @@ sections:
           title: lorem-ipsum
           video_id: ''
         actions: []
+        image: images/prayer.jpeg
     type: section_features
 seo:
   title: Hoboken Grace
