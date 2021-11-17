@@ -171,8 +171,7 @@ sections:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - title: lorem-ipsum
-        content: >
+      - content: >
           Take some time to pray as a group. Pray for your time together and
           those that will join over the next 10 weeks.
 
