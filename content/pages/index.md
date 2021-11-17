@@ -131,7 +131,7 @@ sections:
         no_follow: false
         typeform: false
     type: section_content
-  - section_id: lorem-ipsum
+  - section_id: DINNER GROUP OVERVIEW
     title: DINNER GROUP OVERVIEW
     subtitle: lorem-ipsum
     background: gray
