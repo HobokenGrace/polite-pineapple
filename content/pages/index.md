@@ -133,7 +133,6 @@ sections:
     type: section_content
   - section_id: DINNER GROUP OVERVIEW
     title: DINNER GROUP OVERVIEW
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
