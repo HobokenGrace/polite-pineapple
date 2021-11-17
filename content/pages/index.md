@@ -137,7 +137,7 @@ sections:
     background_image:
       bg_fixed: false
     text_color_style: dark-on-light
-    content: "\n\n*   *   *   *   *   *   What will your group look like?\_\n\n                        *   What can your group expect each week?\n\n                        *   When will you meet? How long will you meet?\n\n                        *   Are there specific requests related to how you meet? (Example if you meet online are they encouraged to mute when they are not talking?)\n\n                        *   Roles within a dinner group:\n\n                            *   Individuals – Own their growth\n\n                            *   Group – Supports the growth\n\n                            *   Leader\_ – Encourages the growth\n\n                            *   Church – Partners in growth\n"
+    content: "\n\n*   What can your group expect each week?\n\n*   When will you meet? How long will you meet?\n\n*   Are there specific requests related to how you meet? (Example if you meet online are they encouraged to mute when they are not talking?)\n\n*   Roles within a dinner group:\n\n    *   Individuals – Own their growth\n\n    *   Group – Supports the growth\n\n    *   Leader\_ – Encourages the growth\n\n    *   Church – Partners in growth\n"
     text_align: left
     image_alt: ''
     youtube_video:
