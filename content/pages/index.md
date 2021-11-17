@@ -190,6 +190,15 @@ sections:
         actions: []
         image: images/prayer-81fa0705.jpeg
     type: section_features
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    features: []
+    type: section_features
 seo:
   title: Hoboken Grace
   robots:
