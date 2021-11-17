@@ -182,7 +182,7 @@ sections:
           would like to lead your prayer time.
         text_align: left
         image_size: medium
-        image_alignment: right
+        image_alignment: left
         image_alt: ''
         youtube_video:
           title: lorem-ipsum
