@@ -203,14 +203,14 @@ sections:
           of the group:
 
 
-          *   **Take attendance**
+          **Take attendance**
 
 
           You should have received an email 10 minutes prior to group. All you
           need to do is check off who was able to attend.
 
 
-          *   **Send a text or two**
+          **Send a text or two**
 
 
           Was there anyone you want to thank for joining you tonight at group?
@@ -219,7 +219,7 @@ sections:
           culture you’d like to encourage inside of group.
 
 
-          *   **Preview Week Two**
+          **Preview Week Two**
 
 
           If you’d like to get a jump start on the next week you can find that
