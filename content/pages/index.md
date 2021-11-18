@@ -197,20 +197,20 @@ sections:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - content: >+
+      - content: >
           You did it you made it through your first night as a group together!
           Pat yourself on the back. A few things we would recommend coming out
           of the group:
 
 
-          *   Take attendance
+          *   **Take attendance**
 
 
           You should have received an email 10 minutes prior to group. All you
           need to do is check off who was able to attend.
 
 
-          *   Send a text or two
+          *   **Send a text or two**
 
 
           Was there anyone you want to thank for joining you tonight at group?
@@ -219,12 +219,11 @@ sections:
           culture you’d like to encourage inside of group.
 
 
-          *   Preview Week Two
+          *   **Preview Week Two**
 
 
           If you’d like to get a jump start on the next week you can find that
           here.
-
         text_align: left
         image_size: medium
         image_alignment: right
