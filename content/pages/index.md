@@ -117,6 +117,14 @@ sections:
       video_id: a_tR8vXkVJc
     actions: []
     type: section_content
+  - section_id: welcome-video
+    title: WELCOME VIDEO
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    features: []
+    type: section_features
   - section_id: DINNER GROUP OVERVIEW
     title: DINNER GROUP OVERVIEW
     background: gray
@@ -215,14 +223,6 @@ sections:
       video_id: ''
     actions: []
     type: section_content
-  - section_id: welcome-video
-    title: WELCOME VIDEO
-    background: gray
-    background_image:
-      bg_fixed: false
-    text_color_style: dark-on-light
-    features: []
-    type: section_features
 seo:
   title: Hoboken Grace
   robots:
