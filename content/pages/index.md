@@ -106,39 +106,6 @@ sections:
       video_id: a_tR8vXkVJc
     actions: []
     type: section_content
-  - section_id: lorem-ipsum
-    title: lorem-ipsum
-    background: white
-    background_image:
-      bg_fixed: false
-    text_color_style: light-on-dark
-    content: >-
-      ## Lorem ipsum
-
-
-      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-
-      - Lorem ipsum
-
-      - dolor sit amet
-    text_align: center
-    image_alt: ''
-    youtube_video:
-      title: lorem-ipsum
-      video_id: Q7rcF3YaSw0
-    actions:
-      - label: lorem-ipsum
-        url: lorem-ipsum
-        style: primary
-        has_icon: false
-        icon: arrow-left
-        icon_position: left
-        new_window: false
-        no_follow: false
-        typeform: false
-    type: section_content
   - section_id: DINNER GROUP OVERVIEW
     title: DINNER GROUP OVERVIEW
     background: gray
