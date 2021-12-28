@@ -217,7 +217,6 @@ sections:
     type: section_content
   - section_id: welcome-video
     title: WELCOME VIDEO
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
