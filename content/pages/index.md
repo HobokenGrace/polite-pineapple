@@ -131,7 +131,7 @@ sections:
 
 
           *Video run time: 8 minutes*
-        text_align: center
+        text_align: left
         image_size: medium
         image_alignment: right
         image_alt: ''
