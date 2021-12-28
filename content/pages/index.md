@@ -71,7 +71,7 @@ sections:
     actions: []
     type: section_content
   - section_id: lorem-ipsum
-    background: gray
+    background: white
     background_image:
       bg_fixed: false
     text_color_style: dark-on-light
