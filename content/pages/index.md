@@ -112,7 +112,16 @@ sections:
         youtube_video:
           title: lorem-ipsum
           video_id: ''
-        actions: []
+        actions:
+          - label: lorem-ipsum
+            url: lorem-ipsum
+            style: link
+            has_icon: false
+            icon: arrow-left
+            icon_position: left
+            new_window: false
+            no_follow: false
+            typeform: false
         image: images/StoryCards.jpeg
     type: section_features
   - section_id: welcome-video
