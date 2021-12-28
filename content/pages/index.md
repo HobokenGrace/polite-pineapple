@@ -176,49 +176,6 @@ sections:
         actions: []
         image: images/prayer-81fa0705.jpeg
     type: section_features
-  - section_id: After-Group
-    title: After Group
-    background: white
-    background_image:
-      bg_fixed: false
-    text_color_style: dark-on-light
-    features:
-      - content: >
-          You did it you made it through your first night as a group together!
-          Pat yourself on the back. A few things we would recommend coming out
-          of the group:
-
-
-          **Take attendance**
-
-
-          You should have received an email 10 minutes prior to group. All you
-          need to do is check off who was able to attend.
-
-
-          **Send a text or two**
-
-
-          Was there anyone you want to thank for joining you tonight at group?
-          Perhaps someone said something meaningful you and want to celebrate
-          that. Affirmation outside of group goes a long way at creating the
-          culture you’d like to encourage inside of group.
-
-
-          **Preview Week Two**
-
-
-          If you’d like to get a jump start on the next week you can find that
-          here.
-        text_align: left
-        image_size: medium
-        image_alignment: right
-        image_alt: ''
-        youtube_video:
-          title: lorem-ipsum
-          video_id: ''
-        actions: []
-    type: section_features
 seo:
   title: Hoboken Grace
   robots:
