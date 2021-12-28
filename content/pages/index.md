@@ -99,7 +99,6 @@ sections:
     type: section_features
   - section_id: story-cards
     title: Connecting with Story Cards
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
