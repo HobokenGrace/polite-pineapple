@@ -170,7 +170,7 @@ sections:
               *   Leader - Encourages the growth
 
               *   Church - Partners in growth
-        text_align: left
+        text_align: center
         image_size: medium
         image_alignment: right
         image_alt: ''
