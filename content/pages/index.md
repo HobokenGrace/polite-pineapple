@@ -9,6 +9,8 @@ sections:
     title: 10 Week Group Leader Guide
     content: |
       You want to start a Dinner Group.
+
+
       We want to partner with you.
     background_image:
       bg_fixed: false
