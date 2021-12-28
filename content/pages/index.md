@@ -162,7 +162,7 @@ sections:
         image_alignment: right
         image_alt: ''
         youtube_video:
-          title: lorem-ipsum
+          title: Week One - Connecting
           video_id: ''
         actions: []
     type: section_features
