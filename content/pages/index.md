@@ -177,7 +177,7 @@ sections:
         image: images/prayer-81fa0705.jpeg
     type: section_features
   - section_id: After-Group
-    title: AFTER GROUP
+    title: After Group
     background: gray
     background_image:
       bg_fixed: false
