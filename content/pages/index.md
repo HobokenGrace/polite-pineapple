@@ -70,33 +70,6 @@ sections:
       video_id: ''
     actions: []
     type: section_content
-  - section_id: Story-Cards
-    background: white
-    background_image:
-      bg_fixed: false
-    text_color_style: dark-on-light
-    features:
-      - content: "How do you get a group of people to start talking? How do you get them to start being real? Story Cards are an exciting way to encourage people to share about their lives and spiritual journeys. You’ll be surprised by how Story Cards draw your group into deeper reflection and more meaningful conversations.\n\n*   Ask each person to pick a card that describes their response to this question:\_**Which picture best represents how you think or feel about beginning this group?**\n\n*   Go around and have everyone share the number of the card they chose and explain why they picked the card they did.\_\n\n*   If you are meeting online, have the member share the number of the card they chose so you can share your screen so everyone can see which number they chose.\n"
-        text_align: left
-        image_size: medium
-        image_alignment: left
-        image_alt: ''
-        youtube_video:
-          title: lorem-ipsum
-          video_id: ''
-        actions:
-          - label: Digital Story Cards
-            url: 'https://www.anthology.study/story-cards'
-            style: primary
-            has_icon: false
-            icon: arrow-left
-            icon_position: left
-            new_window: true
-            no_follow: false
-            typeform: false
-        image: images/StoryCards.jpeg
-        title: Connect with Story Cards
-    type: section_features
   - section_id: story-cards
     title: Connecting with Story Cards
     background: white
