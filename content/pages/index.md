@@ -114,7 +114,6 @@ sections:
     image_alt: ''
     youtube_video:
       title: Week One - Connecting
-      video_id: a_tR8vXkVJc
     actions: []
     type: section_content
   - section_id: welcome-video
