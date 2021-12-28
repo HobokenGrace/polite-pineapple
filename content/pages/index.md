@@ -99,7 +99,7 @@ sections:
     type: section_features
   - section_id: story-cards
     title: Connecting with Story Cards
-    background: gray
+    background: white
     background_image:
       bg_fixed: false
     text_color_style: dark-on-light
