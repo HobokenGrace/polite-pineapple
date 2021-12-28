@@ -123,8 +123,7 @@ sections:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - title: lorem-ipsum
-        content: >
+      - content: >
           In this session, Pastor Chris High welcomes you to Dinner Groups at
           Hoboken Grace. He explains what a dinner group is and your host, Sarah
           Neral, challenges group members to show up, join in, and be real.
