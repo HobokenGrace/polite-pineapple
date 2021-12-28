@@ -86,7 +86,7 @@ sections:
         image: images/StoryCards.jpeg
         title: Connect with Story Cards
     type: section_features
-  - section_id: lorem-ipsum
+  - section_id: Week One Video
     title: Welcome Video
     background: gray
     background_image:
