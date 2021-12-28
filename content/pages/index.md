@@ -59,6 +59,17 @@ sections:
     background: dark-gray
     text_color_style: light-on-dark
     subtitle: The Goal of Group
+  - section_id: lorem-ipsum
+    title: 'Week One: Connecting'
+    background: gray
+    text_color_style: dark-on-light
+    text_align: left
+    image_alt: ''
+    youtube_video:
+      title: lorem-ipsum
+      video_id: ''
+    actions: []
+    type: section_content
   - section_id: Story-Cards
     background: white
     background_image:
@@ -208,17 +219,6 @@ sections:
           video_id: ''
         actions: []
     type: section_features
-  - section_id: lorem-ipsum
-    title: 'Week One: Connecting'
-    background: gray
-    text_color_style: dark-on-light
-    text_align: left
-    image_alt: ''
-    youtube_video:
-      title: lorem-ipsum
-      video_id: ''
-    actions: []
-    type: section_content
 seo:
   title: Hoboken Grace
   robots:
