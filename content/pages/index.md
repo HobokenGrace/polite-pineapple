@@ -70,6 +70,15 @@ sections:
       video_id: ''
     actions: []
     type: section_content
+  - section_id: lorem-ipsum
+    title: lorem-ipsum
+    subtitle: lorem-ipsum
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    features: []
+    type: section_features
   - section_id: story-cards
     title: Connecting with Story Cards
     background: white
@@ -218,15 +227,6 @@ sections:
       video_id: ''
     actions: []
     type: section_content
-  - section_id: lorem-ipsum
-    title: lorem-ipsum
-    subtitle: lorem-ipsum
-    background: gray
-    background_image:
-      bg_fixed: false
-    text_color_style: dark-on-light
-    features: []
-    type: section_features
 seo:
   title: Hoboken Grace
   robots:
