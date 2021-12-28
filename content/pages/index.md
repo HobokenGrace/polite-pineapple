@@ -211,8 +211,6 @@ sections:
   - section_id: lorem-ipsum
     title: 'Week One: Connecting'
     background: gray
-    background_image:
-      bg_fixed: false
     text_color_style: dark-on-light
     content: >-
       Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non
