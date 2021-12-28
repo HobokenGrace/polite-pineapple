@@ -35,6 +35,12 @@ sections:
       *   [Week Two: Personal Growth Night](/week-two-personal-growth)
       *   Week Three: Connection and Common Growth Night
       *   Week Four: Communion Night
+      *   Week Five: Common Growth Night
+      *   Week Six: Personal Growth Night
+      *   Week Seven: Communion Night
+      *   Week Eight: Connection Night
+      *   Week Nine: Common Growth Night
+      *   Week Ten: Celebration Night
     text_align: left
     image_alt: ''
     youtube_video:
