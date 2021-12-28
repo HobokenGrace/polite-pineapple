@@ -131,7 +131,7 @@ sections:
       video_id: ''
     actions: []
     type: section_content
-  - section_id: lorem-ipsum
+  - section_id: show-up-join-in-be-real
     title: SHOW UP. JOIN IN. BE REAL.
     background: gray
     background_image:
