@@ -178,7 +178,6 @@ sections:
     type: section_features
   - section_id: after-group
     title: After Group
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
