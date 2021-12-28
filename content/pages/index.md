@@ -119,7 +119,7 @@ sections:
     type: section_content
   - section_id: welcome-video
     title: WELCOME VIDEO
-    background: gray
+    background: white
     background_image:
       bg_fixed: false
     text_color_style: dark-on-light
