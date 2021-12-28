@@ -150,7 +150,7 @@ sections:
           *   What will your group look like?
 
 
-          *   What can your group expect each week? 
+          *   What can your group expect each week?
 
 
           *   When will you meet? How long will you meet?
