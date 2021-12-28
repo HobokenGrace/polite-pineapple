@@ -97,7 +97,7 @@ sections:
         image: images/StoryCards.jpeg
         title: Connect with Story Cards
     type: section_features
-  - section_id: lorem-ipsum
+  - section_id: story-cards
     title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
