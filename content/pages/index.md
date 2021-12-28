@@ -140,7 +140,7 @@ sections:
     actions: []
     type: section_content
   - section_id: dinner-group-overview
-    title: lorem-ipsum
+    title: DINNER GROUP OVERVIEW
     subtitle: lorem-ipsum
     background: gray
     background_image:
