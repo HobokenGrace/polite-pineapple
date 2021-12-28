@@ -115,7 +115,7 @@ sections:
         actions:
           - label: Digital Story Cards
             url: 'https://www.anthology.study/story-cards'
-            style: link
+            style: primary
             has_icon: false
             icon: arrow-left
             icon_position: left
