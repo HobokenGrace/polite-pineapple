@@ -104,39 +104,7 @@ sections:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - content: >-
-          Etiam facilisis lacus nec pretium lobortis. Praesent dapibus justo non
-          efficitur efficitur. Nullam viverra justo arcu, eget egestas tortor
-          pretium id. Sed imperdiet mattis eleifend. Vivamus suscipit et neque
-          imperdiet venenatis.
-                  
-          > Vestibulum ullamcorper risus auctor eleifend consequat.
-
-
-          ![Placeholder
-          Image](https://assets.stackbit.com/components/images/default/post-4.jpeg)
-
-
-          In malesuada sed urna eget vehicula. Donec fermentum tortor sit amet
-          nisl elementum fringilla. Pellentesque dapibus suscipit faucibus.
-          Nullam malesuada sed urna quis rutrum. Donec facilisis lorem id
-          maximus mattis. Vestibulum quis elit magna. Vestibulum accumsan
-          blandit consequat. Phasellus quis posuere quam.
-
-
-          Vivamus mollis in tellus ac ullamcorper. Vestibulum sit amet bibendum
-          ipsum, vitae rutrum ex. Nullam cursus, urna et dapibus aliquam, urna
-          leo euismod metus, eu luctus justo mi eget mauris. Proin felis leo,
-          volutpat et purus in, lacinia luctus eros. Pellentesque lobortis massa
-          scelerisque lorem ullamcorper, sit amet elementum nulla scelerisque.
-          In volutpat efficitur nulla, aliquam ornare lectus ultricies ac.
-          Mauris sagittis ornare dictum. Nulla vel felis ut purus fermentum
-          pretium. Sed id lectus ac diam aliquet venenatis. Etiam ac auctor
-          enim. Nunc velit mauris, viverra vel orci ut, egestas rhoncus diam.
-          Morbi scelerisque nibh tellus, vel varius urna malesuada sed. Etiam
-          ultricies sem consequat, posuere urna non, maximus ex. Mauris gravida
-          diam sed augue condimentum pulvinar vel ac dui. Integer vel convallis
-          justo.
+      - content: "How do you get a group of people to start talking? How do you get them to start being real? Story Cards are an exciting way to encourage people to share about their lives and spiritual journeys. You’ll be surprised by how Story Cards draw your group into deeper reflection and more meaningful conversations.\n\n*   Ask each person to pick a card that describes their response to this question:\_**Which picture best represents how you think or feel about beginning this group?**\n\n*   Go around and have everyone share the number of the card they chose and explain why they picked the card they did.\_\n\n*   If you are meeting online, have the member share the number of the card they chose so you can share your screen so everyone can see which number they chose.\n"
         text_align: left
         image_size: medium
         image_alignment: right
