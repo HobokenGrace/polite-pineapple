@@ -210,7 +210,7 @@ sections:
 
           If you’d like to get a jump start on the next week you can find that
           here.
-        text_align: left
+        text_align: right
         image_size: medium
         image_alignment: right
         image_alt: ''
