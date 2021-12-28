@@ -59,7 +59,7 @@ sections:
     background: dark-gray
     text_color_style: light-on-dark
     subtitle: The Goal of Group
-  - section_id: lorem-ipsum
+  - section_id: Story Cards
     background: white
     background_image:
       bg_fixed: false
