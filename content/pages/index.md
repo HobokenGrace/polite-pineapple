@@ -113,7 +113,7 @@ sections:
           title: lorem-ipsum
           video_id: ''
         actions:
-          - label: lorem-ipsum
+          - label: Digital Story Cards
             url: lorem-ipsum
             style: link
             has_icon: false
