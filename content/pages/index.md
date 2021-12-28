@@ -61,7 +61,7 @@ sections:
     subtitle: The Goal of Group
   - section_id: lorem-ipsum
     title: 'Week One: Connecting'
-    background: gray
+    background: white
     text_color_style: dark-on-light
     text_align: left
     image_alt: ''
