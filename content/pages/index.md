@@ -163,7 +163,7 @@ sections:
         image_alt: ''
         youtube_video:
           title: Week One - Connecting
-          video_id: ''
+          video_id: a_tR8vXkVJc
         actions: []
     type: section_features
   - section_id: DINNER GROUP OVERVIEW
