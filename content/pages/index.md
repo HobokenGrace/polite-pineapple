@@ -113,6 +113,7 @@ sections:
           title: lorem-ipsum
           video_id: ''
         actions: []
+        image: images/StoryCards.jpeg
     type: section_features
   - section_id: welcome-video
     title: WELCOME VIDEO
