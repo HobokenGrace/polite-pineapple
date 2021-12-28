@@ -9,6 +9,8 @@ sections:
     title: 10 Week Group Leader Guide
     content: |
       You want to start a Dinner Group.
+
+
       We want to partner with you.
     background_image:
       bg_fixed: false
@@ -21,6 +23,7 @@ sections:
     background: gray
     actions: []
     type: section_content
+    text_align: left
   - section_id: Leader Guide
     title: Leader Guide
     background: white
@@ -32,6 +35,12 @@ sections:
       *   [Week Two: Personal Growth Night](/week-two-personal-growth)
       *   Week Three: Connection and Common Growth Night
       *   Week Four: Communion Night
+      *   Week Five: Common Growth Night
+      *   Week Six: Personal Growth Night
+      *   Week Seven: Communion Night
+      *   Week Eight: Connection Night
+      *   Week Nine: Common Growth Night
+      *   Week Ten: Celebration Night
     text_align: left
     image_alt: ''
     youtube_video:
@@ -39,7 +48,7 @@ sections:
       video_id: ''
     actions: []
     type: section_content
-  - section_id: call-to-action
+  - section_id: goal-of-the-group
     type: section_cta
     title: >-
       To provide everyone in your group the opportunity to pursue authentic
@@ -50,13 +59,13 @@ sections:
     background: dark-gray
     text_color_style: light-on-dark
     subtitle: The Goal of Group
-  - section_id: lorem-ipsum
+  - section_id: Story-Cards
     background: white
     background_image:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - content: "How do you get a group of people to start talking? How do you get them to start being real? Story Cards are an exciting way to encourage people to share about their lives and spiritual journeys. You’ll be surprised by how Story Cards draw your group into deeper reflection and more meaningful conversations.\n\n*   Ask each person to pick a card that describes their response to this question:\_**Which picture best represents how you think or feel about beginning this group?\_**\n\n*   Go around and have everyone share the number of the card they chose and explain why they picked the card they did.\_\n\n*   If you are meeting online, have the member share the number of the card they chose so you can share your screen so everyone can see which number they chose.\n"
+      - content: "How do you get a group of people to start talking? How do you get them to start being real? Story Cards are an exciting way to encourage people to share about their lives and spiritual journeys. You’ll be surprised by how Story Cards draw your group into deeper reflection and more meaningful conversations.\n\n*   Ask each person to pick a card that describes their response to this question:\_**Which picture best represents how you think or feel about beginning this group?**\n\n*   Go around and have everyone share the number of the card they chose and explain why they picked the card they did.\_\n\n*   If you are meeting online, have the member share the number of the card they chose so you can share your screen so everyone can see which number they chose.\n"
         text_align: left
         image_size: small
         image_alignment: left
@@ -77,7 +86,7 @@ sections:
         image: images/StoryCards.jpeg
         title: Connect with Story Cards
     type: section_features
-  - section_id: lorem-ipsum
+  - section_id: Week One Video
     title: Welcome Video
     background: gray
     background_image:
@@ -131,6 +140,108 @@ sections:
         no_follow: false
         typeform: false
     type: section_content
+  - section_id: DINNER GROUP OVERVIEW
+    title: DINNER GROUP OVERVIEW
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    content: "\n\n*   What can your group expect each week?\n\n*   When will you meet? How long will you meet?\n\n*   Are there specific requests related to how you meet? (Example if you meet online are they encouraged to mute when they are not talking?)\n\n*   Roles within a dinner group:\n\n    *   Individuals – Own their growth\n\n    *   Group – Supports the growth\n\n    *   Leader\_ – Encourages the growth\n\n    *   Church – Partners in growth\n"
+    text_align: left
+    image_alt: ''
+    youtube_video:
+      title: lorem-ipsum
+      video_id: ''
+    actions: []
+    type: section_content
+  - section_id: lorem-ipsum
+    title: SHOW UP. JOIN IN. BE REAL.
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    features:
+      - content: >
+          Walk through the Dinner Group Guidelines and discuss as a group what
+          it means to show up, join in, and be real.
+        text_align: left
+        image_size: medium
+        image_alignment: right
+        image_alt: ''
+        youtube_video:
+          title: How to set expectations for your small group
+          video_id: Q7rcF3YaSw0
+        actions: []
+    type: section_features
+  - section_id: lorem-ipsum
+    title: PRAYER
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    features:
+      - content: >
+          Take some time to pray as a group. Pray for your time together and
+          those that will join over the next 10 weeks.
+
+
+          For the first few group meetings, be prepared to lead the group prayer
+          yourself. Praying out loud can be intimidating for many people, so it
+          may be wise to wait a couple of weeks before asking if anyone else
+          would like to lead your prayer time.
+        text_align: left
+        image_size: medium
+        image_alignment: left
+        image_alt: ''
+        youtube_video:
+          title: lorem-ipsum
+          video_id: ''
+        actions: []
+        image: images/prayer-81fa0705.jpeg
+    type: section_features
+  - section_id: lorem-ipsum
+    title: AFTER GROUP
+    background: gray
+    background_image:
+      bg_fixed: false
+    text_color_style: dark-on-light
+    features:
+      - content: >
+          You did it you made it through your first night as a group together!
+          Pat yourself on the back. A few things we would recommend coming out
+          of the group:
+
+
+          **Take attendance**
+
+
+          You should have received an email 10 minutes prior to group. All you
+          need to do is check off who was able to attend.
+
+
+          **Send a text or two**
+
+
+          Was there anyone you want to thank for joining you tonight at group?
+          Perhaps someone said something meaningful you and want to celebrate
+          that. Affirmation outside of group goes a long way at creating the
+          culture you’d like to encourage inside of group.
+
+
+          **Preview Week Two**
+
+
+          If you’d like to get a jump start on the next week you can find that
+          here.
+        text_align: left
+        image_size: medium
+        image_alignment: right
+        image_alt: ''
+        youtube_video:
+          title: lorem-ipsum
+          video_id: ''
+        actions: []
+    type: section_features
 seo:
   title: Hoboken Grace
   robots:
