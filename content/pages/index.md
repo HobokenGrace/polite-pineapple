@@ -141,7 +141,6 @@ sections:
     type: section_content
   - section_id: dinner-group-overview
     title: DINNER GROUP OVERVIEW
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
