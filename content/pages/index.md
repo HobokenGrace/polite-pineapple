@@ -48,7 +48,7 @@ sections:
       video_id: ''
     actions: []
     type: section_content
-  - section_id: call-to-action
+  - section_id: goal-of-the-group
     type: section_cta
     title: >-
       To provide everyone in your group the opportunity to pursue authentic
