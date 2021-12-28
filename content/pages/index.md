@@ -76,7 +76,7 @@ sections:
       bg_fixed: false
     text_color_style: dark-on-light
     features:
-      - title: lorem-ipsum
+      - title: 'Week One: Connecting'
         text_align: left
         image_size: medium
         image_alignment: right
