@@ -21,7 +21,7 @@ sections:
     background: gray
     actions: []
     type: section_content
-    text_align: center
+    text_align: left
   - section_id: Leader Guide
     title: Leader Guide
     background: white
