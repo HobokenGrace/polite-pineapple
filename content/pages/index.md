@@ -176,7 +176,7 @@ sections:
         actions: []
         image: images/prayer-81fa0705.jpeg
     type: section_features
-  - section_id: lorem-ipsum
+  - section_id: after-group
     title: lorem-ipsum
     subtitle: lorem-ipsum
     background: gray
