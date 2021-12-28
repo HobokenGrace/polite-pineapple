@@ -210,7 +210,6 @@ sections:
     type: section_features
   - section_id: lorem-ipsum
     title: 'Week One: Connecting'
-    subtitle: lorem-ipsum
     background: gray
     background_image:
       bg_fixed: false
